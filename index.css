@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: block;
+  padding-top: 20px;
+  width: 100%;
+  height: 35px;
+}
+
+.header-right {
+  padding-left: 30px;
+  padding-right: 30px;
+  min-width: 256px;
+  max-height: 35px;
+  display: flex;
+  flex: 1 1 auto;
+  position: relative;
+  text-align: right;
+  align-items: center;
+  justify-content: end;
+  float: right;
+}
+
+.mail-images {
+  padding-right: 15px;
+  display: flex;
+  line-height: normal;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.mail {
+  padding-left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.images {
+  padding-left: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-icons {
+  min-width: 120px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.app-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.notification-icon {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-icon {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+center {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.image {
+  margin-top: 120px;
+  height: 233px;
+}
+
+.searchform {
+  position: absolute;
+  top: 311px;
+  width: 100%;
+}
+
+form {
+  margin: 0 auto;
+  width: 833px;
+  height: 200px;
+}
+
+.input-field {
+  width: 584px;
+  height: 44px;
+  vertical-align: top;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+}
+
+.input-icons {
+    max-width: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    flex-grow: 2;
+    height: 100%;
+    padding: 0 9px 0 16px;
+}
+
+input[type="search"] {
+    font-size: 17px;
+  border: none;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 75%;
+}
+
+#img-keyboard, #img-microphone {
+    margin-right: 20px;
+}
+
+.buttons {
+  padding-top: 20px;
+  display: block;
+}
+
+input[type="button"] {
+    display: inline-block;
+  box-sizing: border-box;
+  height: 36px;
+  line-height: 27px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  min-width: 54px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.text {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin-top: 12px;
+  text-align: center;
+}
+
+.footer {
+  bottom: 0;
+  height: 82px;
+  width: 100%;
+  min-width: 980px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  color: rgb(102, 102, 102);
+  font-size: 10pt;
+  font-family: arial, sans-serif;
+}
+
+.first-footer {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+  text-align: left;
+  padding-left: 30px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.second-footer {
+  float: left;
+  margin-left: 30px;
+}
+
+.second-footer span {
+    padding-right: 27px;
+}
+
+.third-footer {
+  float: right;
+  margin-right: 30px;
+}
+
+.third-footer span {
+    padding-left: 27px;
+}
